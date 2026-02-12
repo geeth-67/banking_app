@@ -59,7 +59,40 @@ class _BankingAppState extends State<BankingApp> {
                 ],
               ),
 
+              SizedBox(height: 35),
 
+              Column(
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text("Save money! The more your money",style: TextStyle(
+                          fontSize: 16,
+                          color: Colors.grey),),
+                    ],
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text("works for you, "
+                          "the less you have to work",style: TextStyle(
+                          fontSize: 16,
+                          color: Colors.grey),)
+                    ],
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text("for money.",style: TextStyle(
+                          fontSize: 16 ,
+                          color: Colors.grey),)
+                    ],
+                  ),
+                ],
+              ),
+
+
+            ],
           ),
         ),
       ),
