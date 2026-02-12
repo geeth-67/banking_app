@@ -95,7 +95,11 @@ class _BankingAppState extends State<BankingApp> {
 
               ElevatedButton(
                 onPressed: () {},
-
+                style: ElevatedButton.styleFrom(
+                  padding: const EdgeInsets.symmetric(vertical: 20,horizontal: 100),
+                  backgroundColor: const Color(0xFFa061e2),
+                  elevation: 5,
+                ),
                 child: const Text(
                   "Let's Start",
                   style: TextStyle(
